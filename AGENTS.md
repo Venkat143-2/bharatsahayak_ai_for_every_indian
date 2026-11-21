@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Architecture
+
+- Keep the public demonstration scheme catalog in Lovable Cloud, while keeping saved schemes, recent activity, language preference, and the single conversation in browser storage because sign-in is optional and chat was selected as browser-only.
