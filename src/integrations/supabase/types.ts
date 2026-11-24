@@ -17,7 +17,31 @@ export type Database = {
       [_ in never]: never
     }
     Views: {
-      [_ in never]: never
+      government_schemes: {
+        Row: {
+          application_steps: string[] | null
+          benefits: string[] | null
+          category: string | null
+          category_requirement: string | null
+          demo_data: boolean | null
+          description: string | null
+          eligibility_summary: string | null
+          gender_requirement: string | null
+          min_age: number | null
+          name: string | null
+          name_hi: string | null
+          name_te: string | null
+          occupation_tags: string[] | null
+          official_source: string | null
+          official_url: string | null
+          required_documents: string[] | null
+          rural_requirement: boolean | null
+          slug: string | null
+          target_beneficiaries: string | null
+          verification_items: string[] | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       [_ in never]: never
